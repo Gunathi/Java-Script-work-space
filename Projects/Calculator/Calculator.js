@@ -1,10 +1,3 @@
-function showPrompt(){
-    var name = prompt("Enter your name");
-    if(name != null && name != ""){
-        document.getElementById("Head-name").innerHTML = name+"'s Calculator";
-    }
-}
-
 function sum() {
     let fno = parseInt(document.getElementById('firstNumber').value);
     let sno = parseInt(document.getElementById('secondNumber').value);
